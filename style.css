@@ -1,0 +1,13 @@
+main {
+  text-align: left;
+  color: rgb(228, 228, 228);
+}
+#logo {
+  align-content: center;
+}
+footer {
+  color: rgba(105, 105, 105, 0.541);
+}
+body {
+  background-color: rgb(0, 0, 0);
+}

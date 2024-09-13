@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2 class="heading">Test Document for HTML</h2>
+    <main>
+      <h2>AFO OMEGA</h2>
+      <p>
+        Click here to view
+        <a
+          id="logo"
+          href="https://cdn.discordapp.com/attachments/950224902357667871/1281496538014810184/Screenshot_2024-08-21_023713.png?ex=66dfe2a7&is=66de9127&hm=2e1cb2c99e728cb895da78fc61b78c23a1a7866e2e425a1b4d3e0f49bda33efc&"
+          >ORBAT</a
+        >
+      </p>
+      <a href="https://www.youtube.com/@AFOOmega">
+        <img src="omega-3.jpeg" alt="AFO OMEGA Logo"
+      /></a>
+      <div class="Operations">
+        <h3>Operational Days</h3>
+        <ul>
+          <li>Sunday</li>
+          <li>Wednesday</li>
+          <li>Friday</li>
+        </ul>
+        <h4>Operation Type</h4>
+        <ol>
+          <li>Deployment</li>
+          <li>SFAS</li>
+          <li>Training</li>
+          <li>Aviation "Flight Night"</li>
+        </ol>
+      </div>
+      <br />
+      <h4>Unit</h4>
+      <form action="/submit-unit-assignment">
+        <label for="Ground">
+          <input id="Ground" type="radio" name="ground-aviation" />Ground
+        </label>
+        <br />
+        <label for="Aviation">
+          <input
+            id="Aviation"
+            type="radio"
+            name="ground-aviation"
+          />Aviation </label
+        ><br />
+        <h4>Attendance Reporting</h4>
+
+        <label for="Sunday">
+          <input type="checkbox" name="sunday" id="sunday" />Sunday </label
+        ><br />
+
+        <label for="wednesday">
+          <input
+            type="checkbox"
+            name="wednesday"
+            id="wednesday"
+          />Wednesday </label
+        ><br />
+
+        <label for="friday">
+          <input
+            type="checkbox"
+            name="attending-maybe-absent"
+            id="friday"
+          />Friday
+        </label>
+        <br />
+
+        <input type="text" placeholder="Doe. J" required />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        <small>No Copyright - <a href="https://dmjx.dk">DMJX.dk</a></small>
+      </p>
+    </footer>
+  </body>
+</html>
